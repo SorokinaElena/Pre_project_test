@@ -1,0 +1,23 @@
+.nav {
+    height: 50px;
+    background-color: #34495E;
+
+    display: grid;
+    grid-template-columns: repeat(2, 89px);
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+}
+
+.nav div {
+    width: 89px;
+    height: 22px;
+    border: 2px solid #ECF0F1;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
